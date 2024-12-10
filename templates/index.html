@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wettervorhersage</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌤️ Wettervorhersage-App</h1>
+  </header>
+  <main>
+    <form id="searchForm">
+      <label for="city">Stadt eingeben:</label>
+      <input type="text" id="city" name="stadt" placeholder="z.B. Berlin" required>
+      <button type="submit">🔍 Suchen</button>
+    </form>
+    <div id="wetterErgebnis">
+      <p id="meldung"></p>
+    </div>
+  </main>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
+
